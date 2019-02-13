@@ -1,0 +1,87 @@
+/* Style all input fields */
+
+
+input{
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  padding-bottom: -10px;
+  border-radius: 8px;
+}
+
+input:focus {
+  border: 5px solid #555;
+}
+
+h1{
+  text-align:center;
+  color: white;
+
+}
+
+p{
+  text-align:center;
+  color: white;
+
+}
+
+/* Style the submit button */
+input[type=submit] {
+  border-radius: 8px;
+  color: Gray;
+  background-color: white;
+
+}
+
+
+/* Style the container for inputs */
+.container {
+  color: White;
+  font-weight: bold;
+  border: 5px solid Gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  padding: 20px;
+  padding-top: 3px;
+  text-align: center;
+
+
+}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  background-image: url("Bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  z-index: 1;
+  background-repeat: no-repeat;
+  display: block;
+  background-image: url("Bg.png");
+  height: 100%;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+  
+
